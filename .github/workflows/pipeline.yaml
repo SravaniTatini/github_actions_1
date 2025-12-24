@@ -1,0 +1,11 @@
+name: first-gha-task
+
+on:
+  push:
+
+jobs:
+  my_first_gha_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: message
+        run: echo "This is my First GitHub Actions Task"
